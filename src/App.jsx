@@ -81,7 +81,7 @@ function App() {
           baseSize: 12 + Math.random() * 10,
           baseX: baseX + (Math.random() - 0.5) * spacing * 0.3,
           baseY: baseY + (Math.random() - 0.5) * rowH * 0.15,
-          driftSpeed: 0.8 + Math.random() * 2.0,
+          driftSpeed: 0.2 + Math.random() * 0.4,
           wavePhase: Math.random() * Math.PI * 2,
           waveSpeed: 0.3 + Math.random() * 0.4,
           waveAmp: 3 + Math.random() * 6,
