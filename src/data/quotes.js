@@ -282,46 +282,6 @@ export const philosophers = [
   {
     id: 8,
     quote: {
-      zh: '我唯一知道的，就是我一无所知。',
-      en: 'I know one thing: that I know nothing.',
-      ja: '私が唯一知っていることは、私が何も知らないということである。',
-      el: 'Ένα μόνο ξέρω: ότι δεν ξέρω τίποτα.',
-    },
-    philosopher: { zh: '苏格拉底', en: 'Socrates', ja: 'ソクラテス', el: 'Σωκράτης' },
-    era: { zh: '古希腊', en: 'Ancient Greece', ja: '古代ギリシャ', el: 'Αρχαία Ελλάδα' },
-    keywords: ['谦逊', '智慧', '自省', '无知'],
-    keywordsEn: ['humility', 'wisdom', 'self-reflection', 'ignorance'],
-    keywordsJa: ['謙遜', '知恵', '自省', '無知'],
-    story: {
-      scene: {
-        zh: '德尔斐神庙传来神谕：苏格拉底是雅典最聪明的人。苏格拉底不信，他跑去问那些号称有学问的人——政治家、诗人、工匠。他发现政治家什么都说不清楚，诗人写诗靠的是灵感而不是智慧，工匠只懂自己的一行却以为什么都懂。苏格拉底恍然大悟：他们都不知道自己不知道，而我知道自己不知道。这就是神说的"最聪明"。',
-        en: 'The Oracle of Delphi declared: Socrates is the wisest man in Athens. He didn\'t believe it. He went to politicians, poets, craftsmen. Politicians couldn\'t explain anything. Poets wrote by inspiration, not wisdom. Craftsmen knew their trade but thought they knew everything. The realization: they didn\'t know they didn\'t know. He knew he didn\'t know. That\'s what "wisest" meant.',
-        ja: 'デルフィの神託：ソクラテスがアテナイで最も賢い人である。彼は信じなかった。政治家、詩人、職人に会いに行った。政治家は何も説明できない。詩人は霊感で書く、知恵でなく。職人は自分の分野しか知らないのにすべてを知っていると思った。気づいた。彼らは自分が知らないことを知らなかった。彼は自分が知らないことを知っていた。これが「最も賢い」という意味だった。',
-        el: 'Το Μαντείο των Δελφών ανακοίνωσε: ο Σωκράτης είναι ο σοφότερος άνθρωπος στην Αθήνα. Δεν το πίστευε. Πήγε σε πολιτικούς, ποιητές, τεχνίτες. Οι πολιτικοί δεν μπορούσαν να εξηγήσουν τίποτα. Οι ποιητές έγραφαν από έμπνευση, όχι σοφία. Οι τεχνίτες ήξεραν την τέχνη τους αλλά νόμιζαν ότι ξέρουν τα πάντα. Η συνειδητοποίηση: αυτοί δεν ήξεραν ότι δεν ξέρουν. Αυτός ήξερε ότι δεν ξέρει. Αυτό σήμαινε "σοφότερος".',
-      },
-      detail: {
-        zh: '他不收费、不办学、不写书。他唯一的"教学法"就是不停地问问题。雅典的年轻人喜欢跟着他，因为看他的对话就像看一场精彩的辩论表演——他总是让那些自以为知道答案的大人物哑口无言。',
-        en: 'He charged no fees, ran no school, wrote no books. His only "teaching method" was asking questions. Young Athenians loved following him—watching his dialogues was like watching a brilliant debate show. He always left the bigshots speechless.',
-        ja: '彼は料金も取らず、学校も開かず、本も書かなかった。彼の唯一の「教授法」は問い続けること。アテナイの若者は彼に従うのが好きだった。彼の対話を見るのは素晴らしい討論ショーを見るようなものだった。彼はいつも大物たちを言葉に詰まらせた。',
-        el: 'Δεν χρέωνε, δεν άνοιξε σχολή, δεν έγραψε βιβλία. Η μόνη "διδασκαλία" του ήταν να κάνει ερωτήσεις. Οι νέοι Αθηναίοι τον αγαπούσαν—το να βλέπεις τους διαλόγους του ήταν σαν να βλέπεις ένα λαμπρό debate show. Πάντε έκανε τους μεγάλους να σωπαίνουν.',
-      },
-      moment: {
-        zh: '70岁被判死刑时，他说：死有两种可能，要么是无梦的长眠，要么是灵魂的迁徙。如果是前者，那很好；如果是后者，我可以在那边继续跟荷马、赫西俄德辩论。不管是哪种，我都不怕。',
-        en: 'At 70, sentenced to death: "Death is either a dreamless sleep, or a journey to another place. If sleep, wonderful. If a journey, I\'ll debate with Homer and Hesiod. Either way, I have nothing to fear."',
-        ja: '70歳で死刑宣告。「死は夢なき眠りか、別の場所への旅のどちらか。眠りなら素晴らしい。旅ならホメロスとヘシオドスと討論できる。どちらにせよ、恐れることはない」',
-        el: 'Στα 70, καταδικασμένος σε θάνατο: "Ο θάνατος είναι είτε ένας ύπνος χωρίς όνειρα είτε ένα ταξίδι σε άλλο μέρος. Αν ύπνος, θαυμάσιο. Αν ταξίδι, θα συζητήσω με τον Όμηρο και τον Ησίοδο. Σε κάθε περίπτωση, δεν έχω τίποτα να φοβάμαι."',
-      }
-    },
-    resonance: {
-      zh: '在职场里最可怕的从来不是"我不知道"，而是"我以为我知道"。那些拍着胸脯说"这事我熟"然后搞砸的人，比一开始就说"我不太懂，让我先研究一下"的人多得多。承认自己不知道，不丢人。假装知道，才丢人。',
-      en: 'The scariest thing in the workplace is never "I don\'t know"—it\'s "I thought I knew." People who say "I\'ve got this" and then mess up far outnumber those who say "I\'m not sure, let me look into it." Admitting ignorance isn\'t shameful. Pretending knowledge is.',
-      ja: '職場で最も怖いのは「知らない」ことではなく、「知っていると思い込む」こと。胸を叩いて「任せて」と言って失敗する人は、最初から「よく分からないから調べてみます」と言う人よりはるかに多い。知らないことを認めるのは恥ずかしいことではない。知っているふりをすることこそ恥ずかしい。',
-      el: 'Το πιο τρομακτικό πράγμα στον χώρο εργασίας δεν είναι ποτέ το "δεν ξέρω"—είναι το "νόμιζα ότι ξέρω." Άνθρωποι που λένε "το έχω" και μετά τα χαλάνε είναι πολύ περισσότεροι από αυτούς που λένε "δεν είμαι σίγουρος, ας το δω." Το να παραδέχεσαι την άγνοια δεν είναι ντροπή. Το να προσποιείσαι γνώση είναι.',
-    }
-  },
-  {
-    id: 9,
-    quote: {
       zh: '我们必须想象西西弗斯是幸福的。',
       en: 'One must imagine Sisyphus happy.',
       ja: 'シシュフォスが幸せであることを想像しなければならない。',
@@ -360,7 +320,7 @@ export const philosophers = [
     }
   },
   {
-    id: 10,
+    id: 9,
     quote: {
       zh: '人是生而自由的，却无往不在枷锁之中。',
       en: 'Man is born free, and everywhere he is in chains.',
@@ -400,7 +360,7 @@ export const philosophers = [
     }
   },
   {
-    id: 11,
+    id: 10,
     quote: {
       zh: '没有事实，只有阐释。',
       en: 'There are no facts, only interpretations.',
@@ -440,7 +400,7 @@ export const philosophers = [
     }
   },
   {
-    id: 12,
+    id: 11,
     quote: {
       zh: '上善若水，水善利万物而不争。',
       en: 'The highest good is like water. Water benefits all things without competing.',
@@ -478,120 +438,9 @@ export const philosophers = [
       ja: '職場で最も優れた人は往々にして最も声の大きい人ではなく、最も静かで口を開けば毎回問題を解決する人だ。老子の「不争」は弱さではない。水のようなものだ。石に会えば回り込み、低いところへ流れ、柔らかそうだが石をも穿つ。皆と競争する必要はない。ただ自分の方向を見つけて流れ続ければいい。',
       el: 'Ο πιο ικανός στον χώρο εργασίας σπάνια είναι ο πιο φωνακλάς. Είναι ο ήσυχος που λύνει προβλήματα κάθε φορά που μιλά. Η "μη ανταγωνιστικότητα" του Λάοζι δεν είναι αδυναμία. Είναι σαν το νερό: ρέει γύρω από βράχια, βρίσκει τον χαμηλότερο δρόμο, φαίνεται μαλακό αλλά στάζει μέσα από πέτρα. Δεν χρειάζεται να ανταγωνίζεσαι όλους. Βρες την κατεύθυνσή σου και συνέχισε να ρέεις.',
     }
-  }
-];
-
-// 词到哲人ID的映射（确保每个词点击都有内容）
-const wordAssignments = {
-  // 核心词
-  '自由': [1, 3, 10], '认知': [1, 6], '焦虑': [1], '内心': [1, 4],
-  '变化': [2], '时间': [2], '成长': [2], '流逝': [2],
-  '关系': [3], '孤独': [3], '定义': [3],
-  '欲望': [4], '满足': [4], '放下': [4, 7],
-  '勇气': [5], '热爱': [5], '现实': [5],
-  '自省': [6], '意义': [6], '智慧': [6],
-  '有限': [7], '知识': [7], '逍遥': [7],
-  '谦逊': [8], '无知': [8],
-  '存在': [9], '荒诞': [9], '反抗': [9],
-  '枷锁': [10], '社会': [10], '天性': [10],
-  '力量': [11], '超越': [11], '价值': [11], '意志': [11],
-  '柔': [12], '不争': [12], '道': [12], '自然': [12],
-  // 英文词
-  'freedom': [1, 3, 10], 'perception': [1], 'anxiety': [1], 'inner peace': [1, 4],
-  'change': [2], 'time': [2], 'growth': [2], 'flow': [2],
-  'relationships': [3], 'loneliness': [3], 'identity': [3],
-  'desire': [4], 'contentment': [4], 'letting go': [4, 7],
-  'courage': [5], 'love': [5], 'reality': [5],
-  'self-reflection': [6], 'wisdom': [6, 8], 'ignorance': [8],
-  'limits': [7], 'freedom': [1, 3, 10], 'humility': [8],
-  'existence': [9], 'absurdity': [9], 'revolt': [9],
-  'chains': [10], 'nature': [12], 'power': [11],
-  'transcendence': [11], 'values': [11], 'will': [11],
-  'softness': [12], 'non-contention': [12], 'Dao': [12],
-  // 日文词
-  '自由': [1, 3, 10], '認識': [1], '不安': [1], '内面': [1, 4],
-  '変化': [2], '時間': [2], '成長': [2], '流れ': [2],
-  '関係': [3], '孤独': [3], '定義': [3],
-  '欲望': [4], '満足': [4], '放下': [4, 7],
-  '勇気': [5], '熱愛': [5], '現実': [5],
-  '自省': [6], '意味': [6], '知恵': [6],
-  '有限': [7], '知識': [7], '逍遥': [7],
-  '謙遜': [8], '無知': [8],
-  '存在': [9], '不条理': [9], '反抗': [9],
-  '鎖': [10], '社会': [10], '天性': [10],
-  '力': [11], '超越': [11], '価値': [11], '意志': [11],
-  '柔': [12], '不争': [12], '道': [12], '自然': [12],
-  // 意境词分配
-  '命运': [9, 2], '灵魂': [1, 8], '永恒': [2, 12], '虚无': [9, 11],
-  '沉默': [8, 6], '星光': [12, 2], '黄昏': [9, 11], '黎明': [5, 9],
-  '尘埃': [12, 11], '回声': [2, 8], '迷雾': [6, 8], '火焰': [5, 11],
-  '深渊': [9, 11], '风暴': [5, 11], '梦境': [7, 9],
-  '远方': [5, 7], '寂静': [12, 8], '微光': [5, 9], '潮汐': [2, 12],
-  '荒原': [9, 11], '余烬': [9, 11], '归途': [7, 12], '虚空': [9, 12],
-  '觉醒': [8, 6], '真理': [8, 6], '死亡': [9, 11],
-  '爱情': [3, 5], '理性': [8, 6], '苦难': [9, 5], '希望': [5, 9],
-  '信仰': [5, 4], '美': [11, 8], '善': [11, 4], '恶': [11, 3],
-  '无常': [2, 4], '因果': [4, 7], '轮回': [4], '涅槃': [4],
-  '菩提': [4], '般若': [4], '慈悲': [4], '观照': [6, 8],
-  '觉悟': [8, 4], '本心': [12, 7], '明镜': [8, 12], '空性': [12, 4],
-  '仁': [6, 10], '义': [11, 5], '礼': [6], '智': [6, 8], '信': [10, 6],
-  '天': [12], '地': [12], '人': [10], '心': [7, 8], '性': [7, 10],
-  '命': [9, 4], '理': [8, 6], '气': [12], '物': [1, 11],
-  '我': [3, 8], '他': [3], '众生': [4, 7], '世界': [9, 2],
-  '宇宙': [12, 2], '刹那': [2], '须臾': [2, 7],
-  '须弥': [4, 12], '芥子': [7, 12], '莲花': [4], '月光': [12, 7],
-  '春风': [5, 7], '秋水': [12, 7], '冬雪': [5, 9], '夏雷': [11, 5],
-  '山川': [12, 7], '草木': [12, 7], '花开': [4, 7], '叶落': [2, 7],
-  '云起': [12, 7], '星沉': [2, 9], '日出': [5, 9], '月隐': [12, 4],
-  '潮生': [2, 12], '潮落': [2, 9], '风起': [5, 11], '风止': [12, 7],
-  '雨落': [9, 5], '雨歇': [7, 12], '霜降': [2, 12], '露凝': [4, 12],
-  '雾散': [8, 6], '烟消': [2, 7], '雷鸣': [11, 5], '电闪': [11, 5],
-  '虹现': [5, 4], '霞飞': [5, 9], '夜深': [8, 9], '天明': [5, 9],
-  '岁暮': [2, 9], '年初': [5, 10], '春去': [7, 2], '秋来': [7, 2],
-  '生灭': [2, 4], '聚散': [3, 7], '得失': [6, 4], '荣辱': [10, 11],
-  '进退': [10, 7], '起落': [9, 2], '沉浮': [9, 2], '明暗': [8, 12],
-  '虚实': [9, 12], '有无': [12, 9], '动静': [12, 2], '快慢': [2, 9],
-  '轻重': [11, 12], '冷暖': [5, 9], '悲欢': [5, 9], '离合': [3, 7],
-  '苦乐': [4, 9], '爱憎': [3, 11], '善恶': [11, 4], '真假': [8, 6],
-  '美丑': [11, 8], '穷达': [10, 5], '贵贱': [10, 11], '生死': [9, 4],
-  '始终': [2, 8], '首尾': [7, 2], '缘起': [4, 7], '缘灭': [4, 7],
-  '执念': [4, 3], '无为': [12, 7],
-  // 新增哲学家关键词
-  '自强': [13], '坚持': [13], '奋斗': [13], '不息': [13],
-  '行动': [14, 1], '认知': [14, 1], '实践': [14], '合一': [14, 16],
-  '同理心': [15], '尊重': [15], '仁爱': [15], '道德': [15],
-  '齐物': [16], '逍遥': [16, 7], '无差别': [16],
-  '怀疑': [17, 8], '存在': [17, 9], '思考': [17],
-  '痛苦': [18, 4], '无聊': [18], '欲望': [18, 4], '意志': [18, 11],
-  '兼爱': [19], '和平': [19], '实用': [19], '非攻': [19],
-  '简朴': [20], '自然': [20, 12], '独立': [20, 3],
-  '仁政': [21], '性善': [21], '气节': [21], '天下': [21],
-  '必然': [22], '神': [22],
-  '空': [23], '顿悟': [23], '无我': [23],
-  '言论自由': [24], '宽容': [24], '批判': [24, 8],
-  '勤奋': [25], '自律': [25], '自省': [25, 8], '恒心': [25],
-  '脆弱': [26], '思想': [26], '尊严': [26], '宇宙': [26, 12],
-  '变革': [27], '法治': [27], '实用主义': [27], '权术': [27],
-  '时间': [28, 2], '浪费': [28], '节制': [28],
-  '快乐': [29], '死亡': [29, 9], '平静': [29],
-  '反叛': [30], '本色': [30], '真实': [30], '世俗': [30],
-  '星空': [26], '知行合一': [14], '致良知': [14],
-  '天道': [16], '规律': [16], '性恶': [16],
-  '钟摆': [18], '我思': [17], '兼相爱': [19],
-  '瓦尔登': [20], '穷则': [21], '本来无一物': [23],
-  '我不同意': [24], '不期': [27], '穿衣吃饭': [30],
-}
-
-export const wordMap = new Map(Object.entries(wordAssignments))
-
-export const languages = [
-  { code: 'zh', name: '中文', label: 'ZH' },
-  { code: 'en', name: 'English', label: 'EN' },
-  { code: 'ja', name: '日本語', label: 'JA' },
-  { code: 'el', name: 'Ελληνικά', label: 'EL' },
-
+  },
   {
-    id: 13,
+    id: 12,
     quote: {
       zh: '世界上唯有两样东西能让我们的内心受到深深的震撼，一是我们头顶上灿烂的星空，一是我们内心崇高的道德法则。',
       en: 'Two things fill the mind with ever new and increasing wonder and awe: the starry heavens above me and the moral law within me.',
@@ -633,7 +482,7 @@ export const languages = [
 
 ,
   {
-    id: 14,
+    id: 13,
     quote: { zh: '吾爱吾师，吾更爱真理。', en: 'Plato is dear to me, but truth is still dearer.', ja: 'プラトンは親愛なる師である。されど真理はさらに親愛なり。', el: 'Ο Πλάτωνας μου είναι αγαπητός, αλλά η αλήθεια είναι ακόμα πιο αγαπητή.' },
     philosopher: { zh: '亚里士多德', en: 'Aristotle', ja: 'アリストテレス', el: 'Αριστοτέλης' },
     era: { zh: '古希腊·逍遥学派', en: 'Ancient Greece · Peripatetic', ja: '古代ギリシャ・逍遙学派', el: 'Αρχαία Ελλάδα · Περιπατητική Σχολή' },
@@ -642,7 +491,7 @@ export const languages = [
     resonance: { zh: '职场上最难的，是尊重前辈但不盲从。亚里士多德用了二十年跟随柏拉图，然后用余生证明老师是错的。这才是真正的尊师。', en: 'The hardest thing at work is respecting your mentor without blindly following. Aristotle spent twenty years with Plato, then spent the rest of his life proving him wrong.', ja: '職場で最も難しいのは、先輩を尊敬しながらも盲従しないこと。アリストテレスはプラトンと20年間を共にし、その後生涯をかけて師の誤りを証明した。', el: 'Το πιο δύσκολο στη δουλειά είναι να σέβεσαι τον μέντορά σου χωρίς να τον ακολουθείς τυφλά.' }
   },
   {
-    id: 15,
+    id: 14,
     quote: { zh: '知而不行，只是未知。', en: 'Knowledge without action is not yet knowledge.', ja: '知りて行わざれば、ただ未だ知らざるのみ。', el: 'Η γνώση χωρίς πράξη δεν είναι ακόμη γνώση.' },
     philosopher: { zh: '王阳明', en: 'Wang Yangming', ja: '王陽明', el: 'Γουανγκ Γιανγκμίνγκ' },
     era: { zh: '明代·心学', en: 'Ming Dynasty · School of Mind', ja: '明代・心学', el: 'Δυναστεία Μινγκ · Σχολή του Νου' },
@@ -651,7 +500,7 @@ export const languages = [
     resonance: { zh: '读了那么多道理，收藏了那么多干货，为什么还是过不好？王阳明五百年前就给了答案：知而不行，只是未知。真正的知道，是身体已经动了。', en: 'Read so many self-help tips, saved so many articles, yet life has not changed. Wang Yangming gave the answer 500 years ago: knowing without doing is not knowing.', ja: '自己啓発をたくさん読み、記事を保存しても人生は変わらない。王陽明は500年前に答えた。知らずして行わなければ、それはまだ知らないのだ。', el: 'Διαβάζουμε τόσες συμβουλές αλλά η ζωή δεν αλλάζει. Ο Γουανγκ έδωσε την απάντηση πριν από 500 χρόνια.' }
   },
   {
-    id: 16,
+    id: 15,
     quote: { zh: '天行有常，不为尧存，不为桀亡。', en: 'Nature has its constant ways; it does not exist for a sage king nor perish for a tyrant.', ja: '天の行いに常あり。堯のために存するのではなく、桀のために亡ぶるのではない。', el: 'Η φύση έχει τους σταθερούς της νόμους· δεν υπάρχει για τον σοφό βασιλιά.' },
     philosopher: { zh: '荀子', en: 'Xunzi', ja: '荀子', el: 'Σιουνγκζί' },
     era: { zh: '战国末期·儒家', en: 'Late Warring States · Confucianism', ja: '戦国末期・儒家', el: 'Ύστερη Περίοδος των Πολεμιστών Κρατών' },
@@ -660,7 +509,7 @@ export const languages = [
     resonance: { zh: '别指望世界会因为你是谁而改变。天气不会因为你好就出太阳，股市不会因为你亏了钱就反弹。荀子说得好：天道有自己的规律。', en: 'Do not expect the world to change because of who you are. The weather will not be sunny just because you are a good person. Xunzi said it: nature follows its own rules.', ja: 'あなたが誰かによって世界が変わると期待するな。天気はあなたが善人だからといって晴れない。荀子が言った。自然は自らの法則に従う。', el: 'Μην περιμένεις ο κόσμος να αλλάξει εξαιτίας σου. Ο Σιουνγκζί το είπε: η φύση ακολουθεί τους δικούς της νόμους.' }
   },
   {
-    id: 17,
+    id: 16,
     quote: { zh: '我思故我在。', en: 'I think, therefore I am.', ja: '我思う、ゆえに我あり。', el: 'Σκέφτομαι, άρα υπάρχω.' },
     philosopher: { zh: '笛卡尔', en: 'Descartes', ja: 'デカルト', el: 'Ντεκάρτ' },
     era: { zh: '法国·理性主义', en: 'France · Rationalism', ja: 'フランス・合理主義', el: 'Γαλλία · Ρασιοναλισμός' },
@@ -669,7 +518,7 @@ export const languages = [
     resonance: { zh: '深夜躺在床上觉得一切都是假的？笛卡尔也有过。但他从深渊里找到了唯一确定的东西：你在想这件事本身，就是存在的证明。', en: 'Ever lain in bed at night feeling like everything is fake? Descartes did too. But he found the one certain thing: the fact that you are thinking about it IS proof you exist.', ja: '深夜ベッドに横たわり、すべてが偽物のように感じたことは？デカルトもあった。だが彼はその深淵から唯一確かなものを見つけた。', el: 'Ξάπλωσες ποτέ στο κρεβάτι νύχτα νιώθοντας ότι όλα είναι ψεύτικα; Ο Ντεκάρτ επίσης.' }
   },
   {
-    id: 18,
+    id: 17,
     quote: { zh: '人生就像钟摆，在痛苦和无聊之间来回摆动。', en: 'Life swings like a pendulum between pain and boredom.', ja: '人生は振り子のごとく、苦痛と退屈の間を揺れ動く。', el: 'Η ζωή ταλαντεύεται σαν εκκρεμές ανάμεσα στον πόνο και την πλήξη.' },
     philosopher: { zh: '叔本华', en: 'Schopenhauer', ja: 'ショーペンハウアー', el: 'Σοπενχάουερ' },
     era: { zh: '德国·悲观主义哲学', en: 'German · Pessimism', ja: 'ドイツ・悲観主義', el: 'Γερμανία · Απαισιοδοξία' },
@@ -679,7 +528,7 @@ export const languages = [
   }
 ,
   {
-    id: 19,
+    id: 18,
     quote: { zh: '兼相爱，交相利。', en: 'Universal love, mutual benefit.', ja: '兼相爱、交相利。', el: 'Αμοιβαία αγάπη, αμοιβαίο όφελος.' },
     philosopher: { zh: '墨子', en: 'Mozi', ja: '墨子', el: 'Μοζί' },
     era: { zh: '战国初期·墨家', en: 'Early Warring States · Mohism', ja: '戦国初期・墨家', el: 'Πρώιμη Περίοδος · Μοϊσμός' },
@@ -688,7 +537,7 @@ export const languages = [
     resonance: { zh: '现代人说关我什么事的时候，墨子在两千多年前说了关每个人的事。兼爱不是圣人才能做到的事。看到远方的灾难会心疼，看到不公义会愤怒，那就是兼爱的种子。', en: 'When modern people say what does it have to do with me, Mozi said 2,000 years ago: it has to do with everyone. Universal love is not just for saints.', ja: '現代人が「関係ない」と言うとき、墨子は2000年以上前に「全員に関係がある」と言った。兼愛は聖人だけのものではない。', el: 'Όταν οι σύγχρονοι άνθρωποι λένε τι με νοιάζει, ο Μοζί είπε πριν από 2.000 χρόνια: νοιάζει τον καθένα.' }
   },
   {
-    id: 20,
+    id: 19,
     quote: { zh: '我步入丛林，因为我希望认真地生活。', en: 'I went to the woods because I wished to live deliberately.', ja: '私が森に入ったのは、意図的に生きたいと願ったからである。', el: 'Πήγα στα δάση γιατί ήθελα να ζω με πρόθεση.' },
     philosopher: { zh: '梭罗', en: 'Thoreau', ja: 'ソロー', el: 'Θόροου' },
     era: { zh: '美国·超验主义', en: 'American · Transcendentalism', ja: 'アメリカ・超絶主義', el: 'Αμερική · Υπερβατισμός' },
@@ -697,7 +546,7 @@ export const languages = [
     resonance: { zh: '你每天刷三小时手机，却说没时间读一本书。梭罗在瓦尔登湖证明了：人真正需要的物质其实很少。你焦虑的大多数问题，都是因为想要的太多，需要的太少。', en: 'You scroll three hours a day but say you have no time to read. Thoreau proved at Walden: we need very little materially. Most anxiety comes from wanting too much, needing too little.', ja: '毎日3時間スマホをスクロールして、本を読む時間がないと言う。ソローは証明した。人が本当に必要なものは実は少ない。', el: 'Κάνεις scroll τρεις ώρες τη μέρα αλλά λες ότι δεν έχεις χρόνο. Ο Θόροου απέδειξε: χρειαζόμαστε πολύ λίγα.' }
   },
   {
-    id: 21,
+    id: 20,
     quote: { zh: '穷则独善其身，达则兼善天下。', en: 'In obscurity, cultivate oneself; in prominence, benefit the world.', ja: '窮すればすなわち独り身を善くし、達すればすなわち天下を兼ねて善くす。', el: 'Στην αφάνεια, καλλιέργησε τον εαυτό· στη δόξα, ωφέλησε τον κόσμο.' },
     philosopher: { zh: '孟子', en: 'Mencius', ja: '孟子', el: 'Μένκιος' },
     era: { zh: '战国·儒家', en: 'Warring States · Confucianism', ja: '戦国・儒家', el: 'Περίοδος των Πολεμιστών Κρατών · Κομφουκιανισμός' },
@@ -706,7 +555,7 @@ export const languages = [
     resonance: { zh: '混得不好时别怨天尤人，先把自己照顾好；混得好时别忘本，想想能帮到谁。孟子这两句话，把一个人一生最重要的两个阶段的处世哲学都说透了。', en: 'When struggling, take care of yourself first. When thriving, remember to help others. Mencius captured the philosophy of both life stages in one sentence.', ja: 'うまくいかないときはまず自分を大切に。うまくいくときは他人を助けることを忘れずに。孟子はこの二つの人生の段階の哲学を一言で言い表した。', el: 'Όταν δυσκολεύεσαι, φρόντισε πρώτα τον εαυτό σου. Όταν τα πας καλά, θυμήσου να βοηθήσεις.' }
   },
   {
-    id: 22,
+    id: 21,
     quote: { zh: '自由是对必然的认识。', en: 'Freedom is the recognition of necessity.', ja: '自由とは必然性の認識である。', el: 'Η ελευθερία είναι η αναγνώριση της αναγκαιότητας.' },
     philosopher: { zh: '斯宾诺莎', en: 'Spinoza', ja: 'スピノザ', el: 'Σπινόζα' },
     era: { zh: '荷兰·理性主义', en: 'Dutch · Rationalism', ja: 'オランダ・合理主義', el: 'Ολλανδία · Ρασιοναλισμός' },
@@ -715,7 +564,7 @@ export const languages = [
     resonance: { zh: '你觉得不自由是因为被太多东西束缚：房贷、工作、人际关系。但斯宾诺莎说，真正的自由不是摆脱一切，而是认清什么是必然的。天气你管不了，但你能决定是否带伞。', en: 'You feel unfree because of mortgages, work, relationships. But Spinoza said: true freedom is not escaping everything, but recognizing what is necessary. You cannot control the weather, but you can choose to bring an umbrella.', ja: 'ローン、仕事、人間関係に縛られて不自由を感じる。しかしスピノザは言った。真の自由はすべてから逃れることではなく、必然的なものを認めることだ。天気は変えられないが傘を持つかどうかは選べる。', el: 'Νιώθεις δέσμιος από υποθήκες, δουλειά, σχέσεις. Αλλά ο Σπινόζα είπε: η πραγματική ελευθερία δεν είναι η απόδραση από όλα, αλλά η αναγνώριση του αναγκαίου.' }
   },
   {
-    id: 23,
+    id: 22,
     quote: { zh: '本来无一物，何处惹尘埃。', en: 'Originally there is not a single thing; where can dust alight?', ja: '本来一物無し、何れの処にか塵埃を惹きん。', el: 'Εξ αρχής δεν υπάρχει ούτε ένα πράγμα· πού μπορεί να καθίσει η σκόνη;' },
     philosopher: { zh: '慧能', en: 'Huineng', ja: '慧能', el: 'Χουινένγκ' },
     era: { zh: '唐代·禅宗', en: 'Tang Dynasty · Chan Buddhism', ja: '唐代・禅宗', el: 'Δυναστεία Τανγκ · Τσαν Βουδισμός' },
@@ -724,7 +573,7 @@ export const languages = [
     resonance: { zh: '我们总觉得需要不断擦拭自己——学更多课程、读更多书、做更多准备。但慧能告诉你：其实你什么都不缺。尘埃本来就不存在。', en: 'We always feel we need to polish ourselves—more courses, more books, more preparation. But Huineng says: you lack nothing. The dust was never there.', ja: '私たちはいつも自分を磨き続ける必要があると感じる。しかし慧能は言う。実はあなたは何も欠けていない。塵埃はもともと存在しない。', el: 'Πάντα νιώθουμε ότι πρέπει να γυαλίζουμε τον εαυτό μας. Αλλά ο Χουινένγκ λέει: δεν σου λείπει τίποτα.' }
   },
   {
-    id: 24,
+    id: 23,
     quote: { zh: '我不同意你的观点，但我誓死捍卫你说话的权利。', en: 'I disapprove of what you say, but I will defend to the death your right to say it.', ja: 'あなたの意見には賛成できない。だがあなたがそれを言う権利は命をかけて守る。', el: 'Δεν συμφωνώ με αυτά που λες, αλλά θα υπερασπιστώ μέχρι θανάτου το δικαίωμά σου να τα λες.' },
     philosopher: { zh: '伏尔泰', en: 'Voltaire', ja: 'ヴォルテール', el: 'Βολταίρος' },
     era: { zh: '法国·启蒙运动', en: 'France · Enlightenment', ja: 'フランス・啓蒙運動', el: 'Γαλλία · Διαφωτισμός' },
@@ -734,7 +583,7 @@ export const languages = [
   }
 ,
   {
-    id: 25,
+    id: 24,
     quote: { zh: '天下古今之庸人，皆以一惰字致败。', en: 'Mediocrity, throughout history, always comes down to one word: laziness.', ja: '天下古今の庸人は、みな一「惰」の字をもって敗る。', el: 'Η μετριότητα, σε όλη την ιστορία, ανάγεται σε μία λέξη: τεμπελιά.' },
     philosopher: { zh: '曾国藩', en: 'Zeng Guofan', ja: '曽国藩', el: 'Ζενγκ Γκουοφάν' },
     era: { zh: '晚清', en: 'Late Qing Dynasty', ja: '晩清', el: 'Ύστερη Δυναστεία Τσινγκ' },
@@ -743,7 +592,7 @@ export const languages = [
     resonance: { zh: '总觉得自己不够聪明、不够天赋异禀？曾国藩连一篇文章都背不下来，贼人都替他着急。但他靠着每天写日记反省、每天读书的笨功夫，硬生生逆袭成晚清最有影响力的人。天资平庸不可怕，可怕的是你连曾国藩的笨功夫都不愿意下。', en: 'Feel not smart enough? Zeng could not even memorize one passage—a thief did it for him. But through daily diary reflection and daily reading, he became the most influential person of the late Qing. Being average is not scary; being too lazy to do the basic work is.', ja: '自分が十分に賢くないと感じる？曽国藩は一文すら暗唱できず、泥棒も彼のために心配した。だが毎日日記と読書の鈍功夫で晩清で最も影響力のある人物になった。平凡であることは恐ろしくない。曽国藩の鈍功夫さえやりたくないことが恐ろしい。', el: 'Νιώθεις ότι δεν είσαι αρκετά έξυπνος; Ο Ζενγκ δεν μπορούσε καν να αποστηθίσει ένα κείμενο. Αλλά με καθημερινή αυτοκριτική και ανάγνωση έγινε ο πιο ισχυρός άνθρωπος.' }
   },
   {
-    id: 26,
+    id: 25,
     quote: { zh: '人是一根会思考的芦苇。', en: 'Man is but a reed, the weakest in nature, but he is a thinking reed.', ja: '人間は考える葦にすぎない。', el: 'Ο άνθρωπος είναι μόνο ένα καλάμι, το πιο αδύναμο στη φύση, αλλά είναι ένα σκεπτόμενο καλάμι.' },
     philosopher: { zh: '帕斯卡', en: 'Pascal', ja: 'パスカル', el: 'Πασκάλ' },
     era: { zh: '法国·古典主义', en: 'France · Classicism', ja: 'フランス・古典主義', el: 'Γαλλία · Κλασικισμός' },
@@ -752,7 +601,7 @@ export const languages = [
     resonance: { zh: '你觉得自己渺小吗？帕斯卡说：是的，在宇宙面前你就是一根芦苇，一口气就能杀死你。但你和芦苇的不同在于——你知道自己渺小。这份自我意识，就是你的尊严。', en: 'Feel small? Pascal says: yes, before the universe you are a reed, a breath can kill you. But you differ from the reed—you know you are small. That self-awareness is your dignity.', ja: '自分がちっぽけだと思う？パスカルは言う。そうだ、宇宙の前ではあなたは葦にすぎない。しかしあなたは自分がちっぽけだと知っている。その自己認識があなたの尊厳だ。', el: 'Νιώθεις μικρός; Ο Πασκάλ λέει: ναι, μπροστά στο σύμπαν είσαι ένα καλάμι. Αλλά διαφέρεις από το καλάμι—ξέρεις ότι είσαι μικρός.' }
   },
   {
-    id: 27,
+    id: 26,
     quote: { zh: '不期修古，不法常可。', en: 'Do not expect to follow the ancient ways; do not take the conventional as the standard.', ja: '古を修むるを期せず、常可を法とせず。', el: 'Μην περιμένεις να ακολουθείς τους αρχαίους τρόπους· μην παίρνεις το συνηθισμένο ως πρότυπο.' },
     philosopher: { zh: '韩非子', en: 'Han Feizi', ja: '韓非子', el: 'Χαν Φεϊζί' },
     era: { zh: '战国末期·法家', en: 'Late Warring States · Legalism', ja: '戦国末期・法家', el: 'Ύστερη Περίοδος · Νομικισμός' },
@@ -761,7 +610,7 @@ export const languages = [
     resonance: { zh: '别总说以前都是这样的。韩非子两千年前就说了：不守老规矩，不迷信惯例。时代变了，方法就得变。你工作中那些一直都是这样做的流程，可能正是该被推翻的东西。', en: 'Stop saying we have always done it this way. Han Feizi said 2,000 years ago: do not follow old rules blindly. Times change, methods must change. Those we have always done it this way processes at work may be exactly what needs to be overthrown.', ja: '「今までずっとこうやってきた」と言うな。韓非子は2000年前に言った。古い規則を守るな、慣例を迷信するな。時代が変われば方法も変わる必要がある。「ずっとこうしてきた」やり方はまさに覆されるべきものだ。', el: 'Σταμάτα να λες ότι πάντα έτσι το κάναμε. Ο Χαν Φεϊζί είπε πριν από 2.000 χρόνια: μην ακολουθείς τυφλά τους παλιούς κανόνες.' }
   },
   {
-    id: 28,
+    id: 27,
     quote: { zh: '不是生命短暂，而是我们浪费了太多。', en: 'It is not that we have a short time to live, but that we waste much of it.', ja: '生きるのが短いのではない。多くの時間を無駄にしているのである。', el: 'Δεν είναι ότι έχουμε λίγο χρόνο να ζήσουμε, αλλά ότι σπαταλάμε πολύ από αυτόν.' },
     philosopher: { zh: '塞内卡', en: 'Seneca', ja: 'セネカ', el: 'Σενέκας' },
     era: { zh: '古罗马·斯多葛', en: 'Ancient Rome · Stoicism', ja: '古代ローマ・ストア派', el: 'Αρχαία Ρώμη · Στωικισμός' },
@@ -770,7 +619,7 @@ export const languages = [
     resonance: { zh: '你总说没时间。但塞内卡说：你有的，你只是浪费在了无意义的社交、无休止的刷屏、无目的的焦虑上。真正的问题不是命短，是你不知道怎么活。今晚少刷半小时手机，读一页书，这就是对时间的尊重。', en: 'You always say you have no time. But Seneca says: you do have it, you just waste it on meaningless socializing, endless scrolling, purposeless anxiety. The real problem is not short life but not knowing how to live.', ja: 'いつも時間がないと言う。しかしセネカは言う。時間は十分にある。意味のない社交、終わらないスクロール、目的のない不安に浪費しているだけだ。本当の問題は人生が短いことではなく、どう生きるかを知らないことだ。', el: 'Πάντα λες ότι δεν έχεις χρόνο. Αλλά ο Σενέκας λέει: έχεις, απλά τον σπαταλάς σε χωρίς νόημα κοινωνικοποίηση και endless scrolling.' }
   },
   {
-    id: 29,
+    id: 28,
     quote: { zh: '死亡与我们无关，因为当我们存在时死亡不在，当死亡在时我们已不在。', en: 'Death is nothing to us, for when we are, death is not come, and when death is come, we are not.', ja: '死は我々にとって何ものでもない。我々あるとき死は来ず、死来るとき我々は已にあればなり。', el: 'Ο θάνατος δεν μας αφορά· όταν υπάρχουμε ο θάνατος δεν υπάρχει, και όταν έρθει ο θάνατος εμείς δεν υπάρχουμε.' },
     philosopher: { zh: '伊壁鸠鲁', en: 'Epicurus', ja: 'エピクロス', el: 'Επίκουρος' },
     era: { zh: '古希腊·伊壁鸠鲁学派', en: 'Ancient Greece · Epicureanism', ja: '古代ギリシャ・エピクロス派', el: 'Αρχαία Ελλάδα · Επικουρισμός' },
@@ -779,7 +628,7 @@ export const languages = [
     resonance: { zh: '害怕死亡是人类最原始的本能。但伊壁鸠鲁说：你不需要害怕一件你永远不会经历的事。你活着的时候死不了，你死了的时候没感觉。焦虑那些万一的时候，想想这句话——它们和你无关。', en: 'Fear of death is the most primal human instinct. But Epicurus says: you need not fear something you will never experience. While alive, death is not here. When death comes, you are not here. Those what-ifs have nothing to do with you.', ja: '死への恐怖は人類の最も原始的な本能だ。しかしエピクロスは言う。決して経験しないものを恐れる必要はない。生きているとき死は来ない。死が来るときあなたはもういない。', el: 'Ο φόβος του θανάτου είναι το πιο πρωτόγονο ένστικτο. Αλλά ο Επίκουρος λέει: δεν χρειάζεται να φοβάσαι κάτι που δεν θα βιώσεις ποτέ.' }
   },
   {
-    id: 30,
+    id: 29,
     quote: { zh: '穿衣吃饭，即是人伦物理。', en: 'Putting on clothes and eating meals — that is the true nature of human ethics.', ja: '衣を着て飯を食う、これ即ち人倫物理なり。', el: 'Το να ντύνεσαι και να τρως — αυτή είναι η αληθινή φύση της ανθρώπινης ηθικής.' },
     philosopher: { zh: '李贽', en: 'Li Zhi', ja: '李贄', el: 'Λι Ζι' },
     era: { zh: '明代·泰州学派', en: 'Ming Dynasty · Taizhou School', ja: '明代・泰州学派', el: 'Δυναστεία Μινγκ · Σχολή Ταϊτζόου' },
@@ -787,4 +636,115 @@ export const languages = [
     story: { scene: { zh: '湖北麻城的龙湖芝佛院里，六十三岁的李贽剃发为僧，却不守清规。他吃肉、喝酒、收女弟子，还公开说人皆有私心。这在理学独尊的明代，简直是离经叛道。', en: 'At Longhu Zhifo Temple in Macheng, Hubei, 63-year-old Li Zhi shaved his head as a monk but refused to follow monastic rules. He ate meat, drank wine, accepted female students, and publicly declared that everyone has selfish desires. In Ming Dynasty China, this was pure rebellion.', ja: '湖北麻城の龍湖芝仏院で、63歳の李贄は剃髪して僧となったが清規を守らなかった。彼は肉を食べ、酒を飲み、女子弟子を受け入れ、公然と「人は皆私心あり」と言った。理学が独占した明代において、これはまさに異端だった。', el: 'Στον ναό Λονγκχού στο Μάτσενγκ, ο 63χρονος Λι Ζι ξύρισε το κεφάλι του ως μοναχός αλλά αρνήθηκε να ακολουθήσει τους κανόνες.' }, detail: { zh: '他曾任云南姚安知府，任期届满后不愿再做官，开始四处讲学。他的《焚书》和《藏书》被官方列为禁书，但他毫不在意。他说：我写的书，就是给后人烧了玩的。朝廷说他妖言惑众，他却说：我只是说出了人人想说但不敢说的话。', en: 'He once served as prefect of Yaoan in Yunnan. After his term, he refused to be an official again and began lecturing everywhere. His books Burning Books and Hidden Books were banned by the state, but he did not care. I wrote my books for future generations to burn for fun. They said he corrupted the people; he said he only spoke what everyone wanted to say but dared not.', ja: '雲南姚安の知府を務めたが、任期終了後再び官になることを拒み、各地で講学を始めた。「焚書」と「蔵書」は官により禁書となったが、彼は気にしなかった。「私の本は後世の人が焼いて遊ぶためだ」。', el: 'Υπηρέτησε ως έπαρχος στο Γιοανάν. Μετά τη θητεία του αρνήθηκε να ξαναγίνει αξιωματούχος και άρχισε να διδάσκει παντού.' }, moment: { zh: '七十六岁时，朝廷以敢倡乱道惑世诬民的罪名将他逮捕入狱。在狱中，他用剃刀自刎。死前留下最后一句话：我一生追求真，现在终于可以用死来证明我的真了。', en: 'At 76, the court arrested him for daring to spread heretical doctrines and deceive the public. In prison, he cut his own throat with a razor. His last words: I spent my life pursuing truth, and now I can prove it with my death.', ja: '76歳の時、朝廷は「異端を唱え世人を惑わす」の罪で彼を逮捕し投獄した。獄中で剃刀で自刎した。最後の言葉は「私は一生真を追求してきた。今ようやく死をもって私の真を証明できる」。', el: 'Στα 76, το δικαστήριο τον συνέλαβε για διάδοση αιρετικών διδασκαλιών. Στη φυλακή, έκοψε τον λαιμό του με ξυράφι.' } },
     resonance: { zh: '活在一个人人都戴着面具的时代，敢做真实的自己就是一种叛逆。李贽说：穿衣吃饭就是人伦——别装，别演，别把简单的事情搞得高深莫测。你饿了就吃，困了就睡，有想法就说。活得真实，比活得正确更重要。', en: 'In an age where everyone wears masks, daring to be yourself is rebellion. Li Zhi said: eating and dressing is ethics—do not pretend, do not perform, do not make simple things complicated. Eat when hungry, sleep when tired, speak when you have thoughts. Living authentically is more important than living correctly.', ja: '誰もが仮面をつける時代において、自分らしくあることは一つの反逆だ。李贄は言った。衣食こそ人倫だ。演じるな。単純なことを難しくするな。腹が減ったら食べ、眠たくなったら眠れ。本物に生きることは正しく生きることより重要だ。', el: 'Σε μια εποχή όπου όλοι φοράνε μάσκες, το να τολμάς να είσαι ο εαυτός σου είναι επανάσταση. Ο Λι Ζι είπε: το φαγητό και το ντύσιμο είναι ηθική.' }
   }
+];
+
+const wordAssignments = {
+  // 核心词
+  '自由': [1, 3, 9], '认知': [1, 6], '焦虑': [1], '内心': [1, 4],
+  '变化': [2], '时间': [2], '成长': [2], '流逝': [2],
+  '关系': [3], '孤独': [3], '定义': [3],
+  '欲望': [4], '满足': [4], '放下': [4, 7],
+  '勇气': [5], '热爱': [5], '现实': [5],
+  '自省': [6], '意义': [6], '智慧': [6],
+  '有限': [7], '知识': [7], '逍遥': [7],
+  '谦逊': [], '无知': [],
+  '存在': [8], '荒诞': [8], '反抗': [8],
+  '枷锁': [9], '社会': [9], '天性': [9],
+  '力量': [10], '超越': [10], '价值': [10], '意志': [10],
+  '柔': [11], '不争': [11], '道': [11], '自然': [11],
+  // 英文词
+  'freedom': [1, 3, 9], 'perception': [1], 'anxiety': [1], 'inner peace': [1, 4],
+  'change': [2], 'time': [2], 'growth': [2], 'flow': [2],
+  'relationships': [3], 'loneliness': [3], 'identity': [3],
+  'desire': [4], 'contentment': [4], 'letting go': [4, 7],
+  'courage': [5], 'love': [5], 'reality': [5],
+  'self-reflection': [6], 'wisdom': [6], 'ignorance': [],
+  'limits': [7], 'freedom': [1, 3, 9], 'humility': [],
+  'existence': [8], 'absurdity': [8], 'revolt': [8],
+  'chains': [9], 'nature': [11], 'power': [10],
+  'transcendence': [10], 'values': [10], 'will': [10],
+  'softness': [11], 'non-contention': [11], 'Dao': [11],
+  // 日文词
+  '自由': [1, 3, 9], '認識': [1], '不安': [1], '内面': [1, 4],
+  '変化': [2], '時間': [2], '成長': [2], '流れ': [2],
+  '関係': [3], '孤独': [3], '定義': [3],
+  '欲望': [4], '満足': [4], '放下': [4, 7],
+  '勇気': [5], '熱愛': [5], '現実': [5],
+  '自省': [6], '意味': [6], '知恵': [6],
+  '有限': [7], '知識': [7], '逍遥': [7],
+  '謙遜': [], '無知': [],
+  '存在': [8], '不条理': [8], '反抗': [8],
+  '鎖': [9], '社会': [9], '天性': [9],
+  '力': [10], '超越': [10], '価値': [10], '意志': [10],
+  '柔': [11], '不争': [11], '道': [11], '自然': [11],
+  // 意境词分配
+  '命运': [8, 2], '灵魂': [1], '永恒': [2, 11], '虚无': [8, 10],
+  '沉默': [6], '星光': [11, 2], '黄昏': [8, 10], '黎明': [5, 8],
+  '尘埃': [11, 10], '回声': [2], '迷雾': [6], '火焰': [5, 10],
+  '深渊': [8, 10], '风暴': [5, 10], '梦境': [7, 8],
+  '远方': [5, 7], '寂静': [11], '微光': [5, 8], '潮汐': [2, 11],
+  '荒原': [8, 10], '余烬': [8, 10], '归途': [7, 11], '虚空': [8, 11],
+  '觉醒': [6], '真理': [6], '死亡': [8, 10],
+  '爱情': [3, 5], '理性': [6], '苦难': [8, 5], '希望': [5, 8],
+  '信仰': [5, 4], '美': [10], '善': [10, 4], '恶': [10, 3],
+  '无常': [2, 4], '因果': [4, 7], '轮回': [4], '涅槃': [4],
+  '菩提': [4], '般若': [4], '慈悲': [4], '观照': [6],
+  '觉悟': [4], '本心': [11, 7], '明镜': [11], '空性': [11, 4],
+  '仁': [6, 9], '义': [10, 5], '礼': [6], '智': [6], '信': [9, 6],
+  '天': [11], '地': [11], '人': [9], '心': [7], '性': [7, 9],
+  '命': [8, 4], '理': [6], '气': [11], '物': [1, 10],
+  '我': [3], '他': [3], '众生': [4, 7], '世界': [8, 2],
+  '宇宙': [11, 2], '刹那': [2], '须臾': [2, 7],
+  '须弥': [4, 11], '芥子': [7, 11], '莲花': [4], '月光': [11, 7],
+  '春风': [5, 7], '秋水': [11, 7], '冬雪': [5, 8], '夏雷': [10, 5],
+  '山川': [11, 7], '草木': [11, 7], '花开': [4, 7], '叶落': [2, 7],
+  '云起': [11, 7], '星沉': [2, 8], '日出': [5, 8], '月隐': [11, 4],
+  '潮生': [2, 11], '潮落': [2, 8], '风起': [5, 10], '风止': [11, 7],
+  '雨落': [8, 5], '雨歇': [7, 11], '霜降': [2, 11], '露凝': [4, 11],
+  '雾散': [6], '烟消': [2, 7], '雷鸣': [10, 5], '电闪': [10, 5],
+  '虹现': [5, 4], '霞飞': [5, 8], '夜深': [8], '天明': [5, 8],
+  '岁暮': [2, 8], '年初': [5, 9], '春去': [7, 2], '秋来': [7, 2],
+  '生灭': [2, 4], '聚散': [3, 7], '得失': [6, 4], '荣辱': [9, 10],
+  '进退': [9, 7], '起落': [8, 2], '沉浮': [8, 2], '明暗': [11],
+  '虚实': [8, 11], '有无': [11, 8], '动静': [11, 2], '快慢': [2, 8],
+  '轻重': [10, 11], '冷暖': [5, 8], '悲欢': [5, 8], '离合': [3, 7],
+  '苦乐': [4, 8], '爱憎': [3, 10], '善恶': [10, 4], '真假': [6],
+  '美丑': [10], '穷达': [9, 5], '贵贱': [9, 10], '生死': [8, 4],
+  '始终': [2], '首尾': [7, 2], '缘起': [4, 7], '缘灭': [4, 7],
+  '执念': [4, 3], '无为': [11, 7],
+  // 新增哲学家关键词
+  '自强': [12], '坚持': [12], '奋斗': [12], '不息': [12],
+  '行动': [13, 1], '认知': [13, 1], '实践': [13], '合一': [13, 15],
+  '同理心': [14], '尊重': [14], '仁爱': [14], '道德': [14],
+  '齐物': [15], '逍遥': [15, 7], '无差别': [15],
+  '怀疑': [16], '存在': [16, 8], '思考': [16],
+  '痛苦': [17, 4], '无聊': [17], '欲望': [17, 4], '意志': [17, 10],
+  '兼爱': [18], '和平': [18], '实用': [18], '非攻': [18],
+  '简朴': [19], '自然': [19, 11], '独立': [19, 3],
+  '仁政': [20], '性善': [20], '气节': [20], '天下': [20],
+  '必然': [21], '神': [21],
+  '空': [22], '顿悟': [22], '无我': [22],
+  '言论自由': [23], '宽容': [23], '批判': [23],
+  '勤奋': [24], '自律': [24], '自省': [24], '恒心': [24],
+  '脆弱': [25], '思想': [25], '尊严': [25], '宇宙': [25, 11],
+  '变革': [26], '法治': [26], '实用主义': [26], '权术': [26],
+  '时间': [27, 2], '浪费': [27], '节制': [27],
+  '快乐': [28], '死亡': [28, 8], '平静': [28],
+  '反叛': [29], '本色': [29], '真实': [29], '世俗': [29],
+  '星空': [25], '知行合一': [13], '致良知': [13],
+  '天道': [15], '规律': [15], '性恶': [15],
+  '钟摆': [17], '我思': [16], '兼相爱': [18],
+  '瓦尔登': [19], '穷则': [20], '本来无一物': [22],
+  '我不同意': [23], '不期': [26], '穿衣吃饭': [29],
+}
+
+
+export const wordMap = new Map(Object.entries(wordAssignments))
+
+
+export const languages = [
+  { code: 'zh', name: '中文', label: 'ZH' },
+  { code: 'en', name: 'English', label: 'EN' },
+  { code: 'ja', name: '日本語', label: 'JA' },
+  { code: 'el', name: 'Ελληνικά', label: 'EL' },
 ];
